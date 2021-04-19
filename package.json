@@ -1,0 +1,26 @@
+{
+  "name": "html-asgmt-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mathias Maciossek <mathias@threethink.io>",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "puppeteer": "^2.1.1",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "dependencies": {}
+}
